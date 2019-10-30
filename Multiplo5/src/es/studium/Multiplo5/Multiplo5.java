@@ -15,8 +15,10 @@ public class Multiplo5 {
 		b=teclado.nextInt();
 		
 		if(a<b) {
+			//Bucle desde a hasta b
 			for(int i=a; i<=b; i++) 
 			{
+				//Y comprueba gracias a la operacion modulo si es multiplo de 5
 				if(i%5==0)
 				{
 					System.out.println(i);
